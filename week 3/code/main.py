@@ -15,8 +15,8 @@ async def run_agent(user_prompt:str):
 def run_agent_sync(user_prompt:str):    
      return asyncio.run(run_agent(user_prompt))
 
-result= run_agent_sync("What is the llm evaluation")
-print(result.output)
+#result= run_agent_sync("What is the llm evaluation")
+#print(result.output)
 
 
 
